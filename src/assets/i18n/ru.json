@@ -3,6 +3,9 @@
     "navbar": {
       "about": "Обо мне",
       "contacts": "Контакты"
+    },
+    "about": {
+      "header": "Обо мне"
     }
   }
 }

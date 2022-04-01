@@ -8,13 +8,17 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
+import { AboutComponent } from './about/about.component';
+import { IntroComponent } from './intro/intro.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PortfolioComponent,
-    HeaderComponent
+    HeaderComponent,
+    AboutComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,

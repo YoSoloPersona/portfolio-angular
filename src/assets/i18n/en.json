@@ -3,6 +3,9 @@
     "navbar": {
       "about": "About",
       "contacts": "Contacts"
+    },
+    "about": {
+      "header": "About"
     }
   }
 }
