@@ -1,10 +1,23 @@
-
 <div class="container" *transloco="let t">
-  <div class="card">
-    <div class="card-header">{{t('site.about.header')}}</div>
+  <div class="card shadow">
     <div class="card-body">
+      <h4>{{ t("site.about.header") }}</h4>
 
+      <dl class="row">
+        <dt class="col-sm-3">{{ t("site.about.name.header") }}:</dt>
+        <dd class="col-sm-9">{{ t("site.about.name.body") }}</dd>
+
+        <dt class="col-sm-3">email:</dt>
+        <dd class="col-sm-9">
+          <p>yo.solo.persona@gmail.com</p>
+        </dd>
+
+        <dt class="col-sm-3">{{ t("site.about.address.header") }}:</dt>
+        <dd class="col-sm-9">{{ t("site.about.address.body") }}</dd>
+
+        <dt class="col-sm-3 text-truncate">{{ t("site.about.language.header") }}:</dt>
+        <dd class="col-sm-9">{{ t("site.about.language.body") }}</dd>
+      </dl>
     </div>
   </div>
 </div>
-
