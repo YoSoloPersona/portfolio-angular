@@ -1,0 +1,33 @@
+{
+  "site": {
+    "navbar": {
+      "about": "About",
+      "contacts": "Contacts"
+    },
+    "intro": {
+      "name": "Sasha",
+      "hobby": "beginner sofrware developmer"
+    },
+    "about": {
+      "header": "About",
+      "name": {
+        "header": "name",
+        "body": "Sasha"
+      },
+      "address": {
+        "header": "address",
+        "body": "Russia, Mari El Republic, city of Yoshkar-Ola"
+      },
+      "language": {
+        "header": "language",
+        "body": "russian"
+      }
+    },
+    "skills": {
+      "header": "Skills"
+    },
+    "contacts":{
+      "header": "Contacts"
+    }
+  }
+}
