@@ -22,6 +22,12 @@
         "header": "language",
         "body": "russian"
       }
+    },
+    "skills": {
+      "header": "Skills"
+    },
+    "contacts":{
+      "header": "Contacts"
     }
   }
 }

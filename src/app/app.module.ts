@@ -10,6 +10,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { AboutComponent } from './about/about.component';
 import { IntroComponent } from './intro/intro.component';
+import { SkillsComponent } from './skills/skills.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { IntroComponent } from './intro/intro.component';
     PortfolioComponent,
     HeaderComponent,
     AboutComponent,
-    IntroComponent
+    IntroComponent,
+    SkillsComponent,
+    FooterComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
