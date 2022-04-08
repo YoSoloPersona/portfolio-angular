@@ -13,7 +13,11 @@ import { IntroComponent } from './intro/intro.component';
 import { SkillsComponent } from './skills/skills.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactsComponent } from './contacts/contacts.component';
-
+import {
+  Location,
+  LocationStrategy,
+  PathLocationStrategy,
+} from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -24,16 +28,19 @@ import { ContactsComponent } from './contacts/contacts.component';
     IntroComponent,
     SkillsComponent,
     FooterComponent,
-    ContactsComponent
+    ContactsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    TranslocoRootModule
+    TranslocoRootModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    Location,
+    { provide: LocationStrategy, useClass: PathLocationStrategy },
+  ],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

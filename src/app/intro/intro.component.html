@@ -1,22 +1,23 @@
 <div class="container-fluid mt-5" *transloco="let t">
-    <div class="row justify-content-md-center text-center">
-      <div class="col-md-auto">
-        <div class="card border-0">
-          <div class="avatar mx-auto">
-            <a href="#">
-              <img
-                class="rounded-circle img-fluid"
-                src="assets/images/avatar.png"
-                alt="avatar"
-              />
-            </a>
-          </div>
+  <div class="row h-25"><span class="placeholder col-12 bg-transparent"></span></div>
+  <div class="row justify-content-md-center text-center">
+    <div class="col-md-auto">
+      <div class="card border-0">
+        <div class="avatar mx-auto">
+          <a href="#">
+            <img
+              class="rounded-circle img-fluid"
+              src="assets/images/avatar.png"
+              alt="avatar"
+            />
+          </a>
+        </div>
 
-          <div class="card-body">
-            <h3 class="card-title">{{t('site.intro.name')}}</h3>
-            <p class="card-text">{{t('site.intro.hobby')}}</p>
-          </div>
+        <div class="card-body">
+          <h3 class="card-title">{{ t("site.intro.name") }}</h3>
+          <p class="card-text">{{ t("site.intro.hobby") }}</p>
         </div>
       </div>
     </div>
+  </div>
 </div>
